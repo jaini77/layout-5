@@ -1,0 +1,82 @@
+.blank_side{background-color: #282c2f;}
+/* Upper section */
+.upper_section{color: white;}
+
+/* upper first col */
+.main_logo{
+    background-color: #f09165;
+}
+.main_logo_header h2 span{
+    font-weight: 1000;
+    text-decoration: overline;
+}
+.main_logo_header hr{
+    background-color: white;
+    height: 5px;
+}
+/* icon part */
+.icon_div{
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+.icon_div li{
+    list-style: none;
+    display: inline-flex;
+    padding: 2%;
+}
+/* upper second col */
+.txt_trend h4{
+    background-color: #f09165;
+    border: 5px solid white;
+    writing-mode:vertical-rl;
+    text-orientation: upright;
+}
+/* Bottom section */
+.bottm_section{
+    background-color: #282c2f;
+    color: white;
+    padding-left: 5%;
+    text-transform: uppercase;
+}
+.address_section{
+    border-left: 4px solid white ;
+    margin-top: -15%;
+}
+.address_section ul{
+    padding-top: 15%;
+}
+.address_section ul li{
+    list-style: none;
+    padding: 2%;
+    margin-left: -15%;
+}
+/* A write part section */
+.about_section{
+    background-color: #72ada9 ;
+    margin-top: -15%;
+    padding-top: 15%;
+}
+.about_section ul li{
+    list-style: none;
+    display: inline-flex;
+}
+.about ul li{
+    padding: 5%;
+}
+.txt_about{
+    text-align: right;
+}
+.three_icon{
+    text-align: center;
+}
+.three_icon svg{
+    width: 100px;
+}
+.about a{
+    margin-left: 40%;
+}
+.about hr{
+    box-shadow: 5px 5px #282c2f;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
