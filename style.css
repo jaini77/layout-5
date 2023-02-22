@@ -1,82 +1,171 @@
-.blank_side{background-color: #282c2f;}
-/* Upper section */
-.upper_section{color: white;}
+@media (min-width:300px) and (max-width:1500px) { 
+body{
+    display: flex;
+    position: absolute;
+    left: 5%;
+    background-color: black;
+    
+}
 
-/* upper first col */
-.main_logo{
-    background-color: #f09165;
+.image_cover{
+    
+    background-image: url('jainish.avif');
+    background-repeat: no-repeat;
+    background-size: 90% 90%;
+    background-position-x: right;
+    background-position-y: top;  
 }
-.main_logo_header h2 span{
+span{
     font-weight: 1000;
-    text-decoration: overline;
 }
-.main_logo_header hr{
-    background-color: white;
-    height: 5px;
-}
-/* icon part */
-.icon_div{
-    padding-top: 10%;
-    padding-bottom: 20%;
-}
-.icon_div li{
-    list-style: none;
-    display: inline-flex;
-    padding: 2%;
-}
-/* upper second col */
-.txt_trend h4{
-    background-color: #f09165;
-    border: 5px solid white;
-    writing-mode:vertical-rl;
-    text-orientation: upright;
-}
-/* Bottom section */
-.bottm_section{
-    background-color: #282c2f;
+.orng_box{
     color: white;
-    padding-left: 5%;
-    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 5%;
+    padding-top: 6%;
+    margin-top: -5%;
+    
 }
-.address_section{
-    border-left: 4px solid white ;
-    margin-top: -15%;
+.orng_box p{
+    text-align:justify;
+    padding-left: 60px;
+    margin-right: 60px;
 }
-.address_section ul{
-    padding-top: 15%;
-}
-.address_section ul li{
+.logo li{
     list-style: none;
+    float: left;
+    padding: 4.5%;
+}
+.orng_box p{
+    text-align: left;
+    font-size: 100%;
+}
+.blank_box h3{
+    background-color: #f09165a4;
+    border: 7px solid white;
+    margin-right: 20%;
+    color: white;
+    writing-mode: horizontal-tb;
+    text-orientation: sideways; 
+    
+    font-weight: 1000;
+    font-size: 300%;
+    letter-spacing: 10px;
+    float: right;
+    
+}
+@media  (min-width:1200px)
+{
+    #trend{
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        letter-spacing: 5px;
+    }
+}   
+.black_box{
+    position: absolute;
+    border-left: 7px solid white;
     padding: 2%;
-    margin-left: -15%;
+    padding-top: 23%;
+    color: white;
+    margin-top: -21%;
+    left: 3%;
+
 }
-/* A write part section */
-.about_section{
-    background-color: #72ada9 ;
-    margin-top: -15%;
+.graphics li{
+    list-style: none;
+    padding: 0.5%;
+}
+.footer{
+    margin-top: 10%
+}
+.footer li{
+    
+    list-style: none;
+    font-weight: 700;
+    font-size: 110%;
+}
+.green_box{
+    background-color: #72ada9a8;
+    position: absolute;
+    margin-top: -25%;
     padding-top: 15%;
+    right: 0;
+    bottom: 0;
+    
 }
-.about_section ul li{
+.all_content{
+    color: white;
+}
+.last_logo li{
     list-style: none;
     display: inline-flex;
-}
-.about ul li{
-    padding: 5%;
-}
-.txt_about{
-    text-align: right;
-}
-.three_icon{
     text-align: center;
 }
-.three_icon svg{
-    width: 100px;
+.all_content a:hover{
+    text-decoration: none;
+    color: white;
+    
 }
-.about a{
-    margin-left: 40%;
+.all_content a{
+    color: white;  
 }
-.about hr{
-    box-shadow: 5px 5px #282c2f;
-    margin-top: 10%;
-    margin-bottom: 10%;
+
+.all_content h1{
+        text-align:right;
+        font-size:100px;
+        font-weight: bolder;
+        margin-right: 50px;
+
+    }
+.all_content p{
+    text-align: right;
+    text-align: justify;
+    padding-left: 80px;
+    margin-right: 50px;
+    margin-top: 20px;
+   
 }
+#j{
+    margin-top:50px;
+}
+
+.all_content hr{
+    margin-right:5%;
+    margin-left: 5px;
+    border:1.5px solid black;
+}
+.doshbox{
+    position: relative;
+    left: 5%;
+}
+.doshbox  h2{
+    padding-top:100px;
+    font-size: 600%;
+    font-weight: 1000;
+    letter-spacing: 4px;
+}
+.doshbox h3{
+    font-size: 300%;
+}
+.doshbox p{
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.doshbox p{
+    margin-left: -60px;
+}
+.about{
+        font-weight: 1000; 
+        font-size: 500%;
+        
+}
+.last_logo{
+    padding-top:5%;
+}
+.site a:hover{
+    color: blue;   
+}
+.site a{
+    padding-right:50%;
+}}
